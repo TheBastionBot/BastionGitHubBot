@@ -1,0 +1,12 @@
+{
+  "name": "Bastion",
+  "version": "1.0.0",
+  "description": "A GitHub bot to automate common tasks in The Bastion Bot GitHub organization.",
+  "author": {
+    "name": "Sankarsan Kampa",
+    "url": "https://sankarsankampa.com"
+  },
+  "homepage": "https://bastionbot.org",
+  "license": "GPL-3.0",
+  "repository": "https://github.com/TheBastionBot/Bastion-GitHub-Bot.git"
+}
