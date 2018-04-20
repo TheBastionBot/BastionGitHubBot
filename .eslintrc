@@ -18,7 +18,7 @@
     curly: [ "warn", "multi-line" ],
     default-case: "warn",
     eqeqeq: [ "warn", "always" ],
-    dot-location: [ "warn", "object" ],
+    dot-location: [ "warn", "property" ],
     no-else-return: "error",
     no-extra-label: "error",
     no-floating-decimal: "error",
