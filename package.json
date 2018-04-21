@@ -13,7 +13,8 @@
     "develop": "nodemon --exec \"npm start\"",
     "start": "probot run ./index.js",
     "lint": "./node_modules/bin/eslint *.js",
-    "unit": "jest --verbose"
+    "unit": "jest --verbose",
+    "test": "npm run lint && npm run unit"
   },
   "dependencies": {
     "probot": "^6.0.0"
