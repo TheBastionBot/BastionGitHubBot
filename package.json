@@ -10,12 +10,15 @@
   "license": "GPL-3.0",
   "repository": "https://github.com/TheBastionBot/Bastion-GitHub-Bot.git",
   "scripts": {
+    "develop": "nodemon --exec \"npm start\"",
     "start": "probot run ./index.js"
   },
   "dependencies": {
     "probot": "^6.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
   "engines": {
     "node": ">= 8.3.0"
   }
