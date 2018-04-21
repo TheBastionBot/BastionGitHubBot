@@ -1,5 +1,5 @@
 {
-  "name": "Bastion",
+  "name": "bastion-github-bot",
   "version": "1.0.0",
   "description": "A GitHub bot to automate common tasks in The Bastion Bot GitHub organization.",
   "author": {
