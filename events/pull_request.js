@@ -1,1 +1,3 @@
-module.exports = context => {};
+module.exports = context => {
+  require('../modules/workInProgress')(context);
+};
