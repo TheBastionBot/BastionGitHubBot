@@ -37,6 +37,7 @@ module.exports = context => {
  * @returns {Boolean} Is the pull request a work in progress or not
  */
 function isWorkInProgress(pr) {
+  // TODO: Check if the PR is labled as a work in progress.
   if (containsWIP(pr.title)) return true;
   return false;
 }
