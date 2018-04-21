@@ -11,12 +11,14 @@
   "repository": "https://github.com/TheBastionBot/Bastion-GitHub-Bot.git",
   "scripts": {
     "develop": "nodemon --exec \"npm start\"",
-    "start": "probot run ./index.js"
+    "start": "probot run ./index.js",
+    "lint": "./node_modules/bin/eslint *.js"
   },
   "dependencies": {
     "probot": "^6.0.0"
   },
   "devDependencies": {
+    "eslint": "^4.19.1",
     "nodemon": "^1.17.3"
   },
   "engines": {
