@@ -20,7 +20,7 @@ module.exports = context => {
     state: status.toLowerCase(),
     target_url: 'https://github.com/apps/bastion',
     description: isWIP ? 'Work in progress – Do not merge!' : 'Ready for Review',
-    context: 'WIP'
+    context: 'Bastion/WIP'
   }));
 
   if (context.payload.repository && context.payload.repository.private) {
