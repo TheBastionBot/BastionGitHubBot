@@ -28,7 +28,8 @@ module.exports = Robot => {
   let eventsDir = './events';
   /* eslint-disable no-sync */
   let events = fs.readdirSync(eventsDir)
-    .filter(file => !fs.statSync(path.join(eventsDir, file)).isDirectory());
+    .filter(file => !fs.statSync(path.join(eventsDir, file)).isDirectory())
+    .map(file => file.replace(/\.js$/, ''));
   /* eslint-enable no-sync */
 
   for (let event of events) {
