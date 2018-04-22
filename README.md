@@ -1,6 +1,6 @@
 # Bastion GitHub Bot
 
-A GitHub bot to automate common tasks in The Bastion Bot GitHub organization.
+A GitHub bot to automate common tasks in GitHub.
 
 ## Features
 - **Work in Progress**  
@@ -17,11 +17,20 @@ A GitHub bot to automate common tasks in The Bastion Bot GitHub organization.
 
   **Configuration Options:** `firstIssueWelcomeComment`, `issueWelcomeComment`
 
+- **Pull Request Welcome Comments**  
+
+  Sends welcome comments in newly opened pull requests with the message you
+  specify in your repository's [configuration file]: `.github/bastion.yml`.  
+
+  **Configuration Options:** `firstPullRequestWelcomeComment`, `pullRequestWelcomeComment`
+
 > More features will be coming soon.
 
 ## Repository Configuration
 `.github/bastion.yml`
 ```yml
+## Issue Welcome Comments ##
+
 # Comment to send on a user's first issue in the repository.
 firstIssueWelcomeComment: |
   Thank you for opening this issue. A maintainer will get by as soon as possible to address this issue.
@@ -29,6 +38,19 @@ firstIssueWelcomeComment: |
 
 # Comment to send on the user's forthcoming issues in the repository.
 issueWelcomeComment: |
+  Thank you for opening this issue. A maintainer will get by as soon as possible to address this issue.
+  In the mean time, please check out our contributing guidelines to explore other ways you can get involved.
+
+
+## Pull Request Welcome Comments ##
+
+# Comment to send on a user's first pull request in the repository.
+firstPullRequestWelcomeComment: |
+  Thank you for opening this issue. A maintainer will get by as soon as possible to address this issue.
+  Since this is your first issue in this repository, please make sure follow the issue template and provide as much detail as possible.
+
+# Comment to send on the user's forthcoming pull requests in the repository.
+pullRequestWelcomeComment: |
   Thank you for opening this issue. A maintainer will get by as soon as possible to address this issue.
   In the mean time, please check out our contributing guidelines to explore other ways you can get involved.
 ```
