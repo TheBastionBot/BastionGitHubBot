@@ -55,13 +55,21 @@ pullRequestWelcomeComment: |
   In the mean time, please check out our contributing guidelines to explore other ways you can get involved.
 ```
 
-## Like this project?
+## Like this project? Consider supporting it.
 
 If you like this project, please **⭐ Star** it in [GitHub](https://github.com/TheBastionBot/Bastion-GitHub-Bot)
 to show your love.
 
-Also, please consider supporting this project by being my
-[Patron on Patreon](https://patreon.com/bastionbot) or [Donating via PayPal](https://paypal.me/snkrsnkampa).
+This application is currently hosted on a free service, which means that it
+will have performance issues in the future if too many users/organizations
+started using it.  
+So, please consider supporting this project by being my
+[Patron on Patreon](https://patreon.com/bastionbot) or [Donating via PayPal](https://paypal.me/snkrsnkampa),
+which will allow me to host this application in it's own dedicated server, so
+that it will be able to server as many users/organizations as possible without
+any issues.
+
+Thank you! 😄
 
 <!-- Links -->
 [configuration file]: #Repository-Configuration
