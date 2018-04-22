@@ -55,16 +55,6 @@ pullRequestWelcomeComment: |
   In the mean time, please check out our contributing guidelines to explore other ways you can get involved.
 ```
 
-## Self Hosting
-
-```sh
-# Install dependencies
-npm install
-
-# Run the bot
-npm start
-```
-
 ## Like this project?
 
 If you like this project, please **⭐ Star** it in [GitHub](https://github.com/TheBastionBot/Bastion-GitHub-Bot)
