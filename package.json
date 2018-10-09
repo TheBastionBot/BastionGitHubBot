@@ -20,11 +20,11 @@
     "probot": "^6.1.0"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "jest": "^22.4.3",
+    "eslint": "^5.6.1",
+    "jest": "^23.6.0",
     "nodemon": "^1.17.3"
   },
   "engines": {
-    "node": ">= 8.3.0"
+    "node": ">= 8.11.4"
   }
 }
