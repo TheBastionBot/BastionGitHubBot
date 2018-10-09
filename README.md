@@ -7,8 +7,8 @@ A GitHub bot to automate common tasks in GitHub.
 
   Blocks merging of pull requests, if it's a work in progress.  
 
-  It determines if a PR is a work in progress, if the PR title contains the
-  phrase *WIP*, *Work in Progress* or *Do not Merge*
+  It determines if a PR is a work in progress, if the PR title or a label contains
+  the phrase *WIP*, *Work in Progress* or *Do not Merge*
 
 - **Issue Welcome Comments**  
 
