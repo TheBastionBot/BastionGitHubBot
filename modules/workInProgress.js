@@ -7,7 +7,10 @@
 module.exports = context => {
   let actions = [
     'opened',
-    'edited'
+    'edited',
+    'labeled',
+    'unlabeled',
+    'synchronize'
   ];
 
   if (!actions.includes(context.payload.action)) return;
