@@ -10,6 +10,13 @@ A GitHub bot to automate common tasks in GitHub.
   It determines if a PR is a work in progress, if the PR title or a label contains
   the phrase *WIP*, *Work in Progress* or *Do not Merge*
 
+- **Invite Contributors to Organization**
+
+  Send invitation to contributors, to join the organization as a member when
+  their pull request is merged in a repository where this is configured.
+
+  **Configuration Options:** `inviteContributors`
+
 - **Issue Welcome Comments**  
 
   Sends welcome comments in newly opened issues with the message you specify in
@@ -27,8 +34,16 @@ A GitHub bot to automate common tasks in GitHub.
 > More features will be coming soon.
 
 ## Repository Configuration
-`.github/bastion.yml`
+This is an example of how the Bastion configuration for the repository should look like.
+
+Location: `.github/bastion.yml`
+
 ```yml
+## Invite Contributors to Organization ##
+
+inviteContributors: true
+
+
 ## Issue Welcome Comments ##
 
 # Comment to send on a user's first issue in the repository.
