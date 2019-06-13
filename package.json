@@ -17,7 +17,7 @@
     "test": "npm run lint && npm run unit"
   },
   "dependencies": {
-    "probot": "^7.3.1"
+    "probot": "^9.2.15"
   },
   "devDependencies": {
     "eslint": "^5.6.1",
