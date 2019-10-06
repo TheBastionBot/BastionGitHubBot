@@ -6,3 +6,7 @@ patch:
   SNYK-JS-HTTPSPROXYAGENT-469131:
     - probot > @octokit/rest > https-proxy-agent:
         patched: '2019-10-04T08:28:34.792Z'
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-06T08:28:30.053Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-06T08:28:30.053Z'
