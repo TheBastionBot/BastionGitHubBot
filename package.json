@@ -14,10 +14,13 @@
     "start": "probot run ./index.js",
     "lint": "./node_modules/bin/eslint *.js",
     "unit": "jest --verbose",
-    "test": "npm run lint && npm run unit"
+    "test": "npm run lint && npm run unit",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "probot": "^7.3.1"
+    "probot": "^7.3.1",
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "eslint": "^5.6.1",
@@ -26,5 +29,6 @@
   },
   "engines": {
     "node": ">= 8.11.4"
-  }
+  },
+  "snyk": true
 }
