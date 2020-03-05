@@ -19,7 +19,7 @@
     "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "probot": "^7.3.1",
+    "probot": "^9.9.7",
     "snyk": "^1.230.5"
   },
   "devDependencies": {
